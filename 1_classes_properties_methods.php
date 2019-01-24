@@ -1,18 +1,19 @@
 <?php
 
     # Define a class
+    
     class User {
         
         # Properties (Attributes)
 
         public $name;
         
-
         # Methods (Functions)
 
         public function sayHello() {
             return $this->name . " says hello\n";
         }
+        
     }
 
     # Instantiate a user objects from the user class
