@@ -9,9 +9,9 @@
 
         # Magic Constant = __CLASS__
         # Magic Methods = __construct & __destruct
-        
+
         public function __construct($name, $age) {
-            echo __CLASS__ . ' instantiated';  
+            echo __CLASS__ . ' instantiated';
             $this->name = $name;
             $this->age = $age;
         }
